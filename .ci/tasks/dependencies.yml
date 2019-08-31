@@ -7,5 +7,5 @@ image_resource:
 inputs:
 - name: source
 run:
-  path: source/dependencies.sh
+  path: dependencies.sh
   dir: source
