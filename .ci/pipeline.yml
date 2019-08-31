@@ -8,7 +8,7 @@ resources:
     private_key: ((github_private_key))
 
 jobs:
-- name: testing
+- name: deploy_latest_version
   plan:
   - get: source
     trigger: true
