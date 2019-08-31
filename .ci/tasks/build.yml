@@ -9,5 +9,5 @@ inputs:
 outputs:
 - name: output
 run:
-  path: source/build.sh
+  path: ./source/build.sh
   dir: source

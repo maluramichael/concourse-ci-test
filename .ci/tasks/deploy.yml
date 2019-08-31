@@ -8,5 +8,5 @@ inputs:
 - name: output
 - name: source
 run:
-  path: source/deploy.sh
+  path: ./source/deploy.sh
   dir: output
