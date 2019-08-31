@@ -8,4 +8,3 @@ inputs:
 - name: source
 run:
   path: ./source/dependencies.sh
-  dir: source
