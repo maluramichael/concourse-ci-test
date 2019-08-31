@@ -1,0 +1,12 @@
+---
+platform: linux
+image_resource:
+  type: docker-image
+  source:
+    repository: node
+inputs:
+- name: output
+- name: source
+run:
+  path: source/deploy.sh
+  dir: output
